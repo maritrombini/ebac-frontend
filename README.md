@@ -9,11 +9,19 @@ Repositório criado para o curso de Front-end da [EBAC](https://ebaconline.com.b
 **Exercícios**
 
 - [x] Módulo 10
+- [x] Módulo 11
 
 ## Módulo 10
 
 - Git e Github
 - Git Flow
+
+## Módulo 11
+
+- Inbound Marketing
+- Post para Blog
+- E-mail Marketing
+- Integração de formulário
 
 
 
