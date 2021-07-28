@@ -22,8 +22,9 @@ body {
   display: block;
   float: left;
   padding: 5px;
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
+  max-width: 1198px;
   
 }
 
@@ -73,6 +74,11 @@ p {
   margin-bottom: 10px;
   line-height: 1.4;
   color: lightslategray;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 ol {
@@ -149,12 +155,34 @@ footer small {
   display: block;
 }
 
-.H-xDw-2UkkG8iaGRcPJj3g {
-  visibility: hidden !important;
+.cognito {
+  height: 350px;
+  overflow: hidden;
 }
 
 .c-button {
   background-color: #a4508b;
   background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
-  border-collapse: collapse;
+}
+
+#tenho-interesse {
+  width: 100%;
+  background-color: rgb(225, 209, 236);
+ 
+}
+
+
+#tenho-interesse form,
+.c-forms-form-title,
+.c-text-singleline ,
+.c-button-section,
+.c-forms-template,
+.c-forms-form-body,
+.c-forms-form {
+  background-color: rgb(225, 209, 236) !important;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
+    color: #6d3874;
 }
