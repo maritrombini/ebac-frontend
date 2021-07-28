@@ -25,7 +25,6 @@ body {
   max-width: 100%;
   margin: 0 auto;
   max-width: 1198px;
-  
 }
 
 header {
@@ -168,13 +167,11 @@ footer small {
 #tenho-interesse {
   width: 100%;
   background-color: rgb(225, 209, 236);
- 
 }
-
 
 #tenho-interesse form,
 .c-forms-form-title,
-.c-text-singleline ,
+.c-text-singleline,
 .c-button-section,
 .c-forms-template,
 .c-forms-form-body,
@@ -183,6 +180,20 @@ footer small {
 }
 
 #tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
-#tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
-    color: #6d3874;
+#tenho-interesse .cognito label[for],
+.cognito input[type='radio'],
+.cognito input[type='checkbox'] {
+  color: #6d3874;
+}
+
+@media (max-width: 425px) {
+  section nav,
+  section article {
+    width: 100%;
+  }
+
+  .container {
+    padding: 1%;
+    padding-right: 1%;
+  }
 }
