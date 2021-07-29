@@ -10,6 +10,7 @@ Repositório criado para o curso de Front-end da [EBAC](https://ebaconline.com.b
 **Exercícios**
 
 - [x] Módulo 10
+- [x] Módulo 11
 
 ## Módulo 10
 
