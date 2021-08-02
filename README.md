@@ -25,4 +25,7 @@ Repositório criado para o curso de Front-end da [EBAC](https://ebaconline.com.b
 - Formulário integrado
 
 
+## Módulo 12
 
+- URLs amigáveis
+- Publicando o site
