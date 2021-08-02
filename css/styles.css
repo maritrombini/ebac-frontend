@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(242, 233, 250);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container {
+  display: block;
+  float: left;
+  padding: 0;
+  width: 98%;
+  margin: 0 1%;
+  max-width: 1198px;
+}
+
+header {
+  background-color: #fff000;
+  background-image: linear-gradient(315deg, #fff000 0%, #ed008c 74%);
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+  margin-left: 0;
+}
+
+header img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.4rem;
+  color: rgb(34, 26, 43);
+  margin-bottom: 20px;
+  margin-left: 50%;
+}
+
+h2 {
+  font-size: 2rem;
+  color: rgb(34, 26, 43);
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  color: rgb(34, 26, 43);
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+h4 {
+  font-size: 1.6rem;
+  color: rgb(182, 60, 182);
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+  color: lightslategray;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.imagem {
+  margin-top: -60px;
+}
+
+ol {
+  margin-left: 30px;
+}
+
+ol li {
+  font-size: 1.4rem;
+  color: lightslategray;
+}
+
+article ul {
+  margin-bottom: 10px;
+}
+
+#interesse {
+  text-align: center;
+}
+
+section {
+  background-color: rgb(255, 255, 255);
+  display: block;
+  float: left;
+  font-size: 1.5rem; /*equivalente a 15px*/
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: springgreen;
+  box-shadow: 1px 1px 4px springgreen;
+}
+
+section nav {
+  display: block;
+  float: left;
+  width: 20%;
+}
+
+nav li {
+  margin: 1px 20px 1px 0;
+  padding-top: 20px;
+  font-weight: bold;
+  list-style: none;
+  border-bottom: 0.5px rgb(34, 26, 43);
+  margin-left: 10px;
+}
+
+nav li:hover {
+  background-color: rgba(236, 234, 236, 0.651);
+}
+
+nav li a {
+  text-decoration: none;
+  color: rgb(34, 26, 43);
+}
+
+nav a:hover {
+  color: rgb(182, 60, 182);
+}
+section article {
+  display: block;
+  float: left;
+  width: 80%;
+}
+
+footer {
+  background-color: #fff000;
+  background-image: linear-gradient(315deg, #fff000 0%, #ed008c 74%);
+  color: #fff;
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  margin-left: 20px;
+}
+
+footer small {
+  font-size: 80%;
+  display: block;
+}
+
+.foot {
+  margin-left: 10%;
+}
+
+.cognito {
+  height: 350px;
+  overflow: hidden;
+}
+
+.c-button {
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+
+#faq {
+  background-color: rgb(238, 255, 247);
+}
+
+#tenho-interesse {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#tenho-interesse form,
+.c-forms-form-title,
+.c-text-singleline,
+.c-button-section,
+.c-forms-template,
+.c-forms-form-body,
+.c-forms-form {
+  background-color: rgb(254, 253, 255) !important;
+  margin-left: 3px;
+}
+
+#tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
+#tenho-interesse .cognito label[for],
+.cognito input[type='radio'],
+.cognito input[type='checkbox'] {
+  color: #6d3874;
+}
+
+article p {
+  margin-left: 10%;
+}
+
+@media (max-width: 425px) {
+  section nav,
+  section article {
+    width: 100%;
+  }
+
+  .container {
+    padding: 1%;
+    padding-right: 1%;
+  }
+}
+
+#banner {
+  background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  width: 100vw;
+  height: 50vh;
+}
+
+.legenda-container {
+  width: 20vw;
+  float: right;
+  margin: 10vh 10vh 0 0;
+}
+
+.legenda {
+  background-color: rgba(255, 11, 145, 0.9);
+  box-shadow: 1px 1px 4px springgreen;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 5rem;
+}
+
+.legenda h5,
+.legenda h4 {
+  color: #5f0a87;
+  line-height: 150%;
+}
+
+.button-cta {
+  border-radius: 5px;
+  display: inline;
+  background-color: #5f0a87;
+  color: springgreen;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 4px springgreen;
+  padding: 10px 15px;
+  width: auto;
+  text-decoration: none;
+  font-weight: 300;
+  float: right;
+}
+
+.button-cta:hover {
+  background-color: rgb(148, 39, 99);
+}
+
+#saiba-mais {
+  background-color: rgb(255, 255, 255);
+  padding: 30px 0;
+}
+
+#saiba-mais p,
+#saiba-mais img {
+  width: 45%;
+  display: block;
+  float: left;
+  padding: 20px;
+}
+
+dl {
+  margin-top: 20px 0;
+}
+
+dt {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: purple;
+  margin-left: 10px;
+}
+
+dd {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
